@@ -11,7 +11,7 @@ spec:
   source:
     repoURL: https://github.com/teodorapantic/argocd.git
     targetRevision: HEAD
-    path: environments/staging/second-app
+    path: nvironments/staging/second_app
   destination:
     server: https://kubernetes.default.svc
   syncPolicy:
